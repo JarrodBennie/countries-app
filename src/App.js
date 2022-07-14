@@ -1,8 +1,9 @@
+import CountriesContainer from './containers/CountriesContainer';
 import './App.css';
 
 function App() {
   return (
-    <h1>Countries App</h1>
+    <CountriesContainer />
   );
 }
 
