@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Country from '../components/Country';
+import Header from '../components/Header';
 import Select from '../components/Select';
 
 function CountriesContainer() {
@@ -33,6 +34,7 @@ function CountriesContainer() {
 
     return (
         <>
+            <Header />
             <h2>Countries Container</h2>
             <Select
                 label="Select a country"
